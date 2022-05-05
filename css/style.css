@@ -1,0 +1,123 @@
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #363E59;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #6D869A;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: #fff;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #ebd122;
+  color: #242424;
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+  background-color: #fff;
+  border-color: #40647E;
+  border-width: 2px;
+  width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+  border-color: #30A5BF;
+}
+
+.portfolio-title {
+  font-weight: bold;
+}
+
+.portfolio-description {
+}
+
+.portfolio-image {
+}
+
+#headshot {
+  max-height: 250px;
+}
+
+.resume h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.resume h4 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+}
+
+p {
+  font-size: 17px;
+}
+
+p2 {
+  font-size: 20px;
+}
+
+sh {
+  font-size: 14px;
+}
+
+a {
+  color:  #363E59;
+}
+
+ap {
+  color:  #363E59;
+  text-decoration-line: underline;
+}
+
+a:hover {
+  color: #6D869A;
+}
+
+.jumbotron {
+  background-image: url("../assets/mtn-range3.jpg");
+  text-align: center;
+  color: #fff;
+  padding: 2%;
+}
+
+.jumbotron h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  font-family: 'Tahoma', serif;
+  background-color: #DFE3E3;
+  color: #363E59;
+}
